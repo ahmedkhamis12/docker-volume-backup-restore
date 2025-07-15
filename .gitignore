@@ -24,3 +24,30 @@ Thumbs.db
 # Ignore SSH keys if present (be careful not to include real ones!)
 *.pem
 *.Identifier
+
+# Ignore backup zip files
+*.zip
+
+# Ignore local backup and log folders
+backups/
+logs/
+restored_backups/
+
+# Ignore environment config files
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore SSH keys if present (be careful not to include real ones!)
+*.pem
+*.Identifier
