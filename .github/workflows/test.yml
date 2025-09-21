@@ -1,0 +1,14 @@
+name: Test Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # allow manual trigger from GitHub UI
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello from GitHub Actions!"
