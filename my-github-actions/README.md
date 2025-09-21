@@ -11,7 +11,7 @@ This project sets up a GitHub Actions workflow for automating tasks such as test
 
 ## Getting Started
 
-To get started with this project, clone the repository and set up the necessary environment variables as specified in the `.gitignore` file.
+ To get started with this project, clone the repository and set up the necessary environment variables as specified in the `.gitignore` file.
 
 ## Running the Workflow
 
